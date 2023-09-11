@@ -43,7 +43,7 @@ kubectl expose deployment hello-server \
 --port $PORT
 ```
 
-## TASK 3 Create 2 nginx web server.
+## TASK 3 Create 2 nginx web server(can copy this template from lab).
 
 ```
 cat << EOF > startup.sh
