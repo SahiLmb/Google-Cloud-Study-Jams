@@ -132,7 +132,7 @@ gcloud compute forwarding-rules create $FIREWALL_NAME \
 --ports 80
 gcloud compute forwarding-rules list
 ```
-<i> wait for two mins before clicking the last progress check button and then keep on clicking the button until the green tick is displayed.</i>
+## <i> Wait for two mins before clicking the last progress check button and then keep on clicking the button until the green tick is displayed.</i>
 
 
 
