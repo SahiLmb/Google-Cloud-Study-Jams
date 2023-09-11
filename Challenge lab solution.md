@@ -1,6 +1,7 @@
 # Create and Manage Cloud Resources: Challenge Lab 
 
-## Task 1 Create Variables 
+## Task 1 
+### Create Variables 
 
 ```
 export INSTANCE_NAME=[replace with your instance name]
@@ -16,7 +17,8 @@ gcloud compute instances create $INSTANCE_NAME \
 --image-family debian-10 \
 --image-project debian-cloud
 ```
-## Task 2 <i>Creating and authenticating the cluster</i>
+## Task 2 
+### Creating and authenticating the cluster
 
 ```
 gcloud container clusters create nucleus-backend \
@@ -43,7 +45,8 @@ kubectl expose deployment hello-server \
 --port $PORT
 ```
 
-## TASK 3 Create 2 nginx web server(can copy this template from lab).
+## TASK 3 
+### Create 2 nginx web server(can copy this template from lab).
 
 ```
 cat << EOF > startup.sh
@@ -95,8 +98,8 @@ gcloud compute backend-services create web-server-backend \
 --protocol HTTP \
 --http-health-checks http-basic-check \
 --global
-
-
+```
+```
 gcloud compute backend-services add-backend web-server-backend \
 --instance-group web-server-group \
 --instance-group-region $REGION \
@@ -108,7 +111,8 @@ gcloud compute backend-services add-backend web-server-backend \
 ```
 gcloud compute url-maps create web-server-map \
 --default-service web-server-backend
-
+```
+```
 gcloud compute target-http-proxies create http-lb-proxy \
 --url-map web-server-map
 ```
@@ -120,7 +124,8 @@ gcloud compute forwarding-rules create http-content-rule \
 --global \
 --target-http-proxy http-lb-proxy \
 --ports 80
-
+```
+```
 gcloud compute forwarding-rules create $FIREWALL_NAME \
 --global \
 --target-http-proxy http-lb-proxy \
