@@ -31,8 +31,7 @@ gcloud container clusters get-credentials nucleus-backend \
 * To create a new Deployment from the hello-app container image, run the following kubectl create command:
 
 ```
-kubectl create deployment hello-server \
---image=gcr.io/google-samples/hello-app:2.0
+kubectl create deployment hello-server \--image=gcr.io/google-samples/hello-app:2.0
 ```
 
 
