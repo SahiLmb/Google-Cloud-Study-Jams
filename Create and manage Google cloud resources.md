@@ -1,7 +1,8 @@
 # Create and Manage Cloud Resources: Challenge Lab 
 
 ## Task 1 
-### Create Variables 
+### Create Variables and replace the values which are specified in your lab
+(Note: <i>everyone will have different values.</i>)
 
 ```
 export INSTANCE_NAME=[replace with your instance name]
