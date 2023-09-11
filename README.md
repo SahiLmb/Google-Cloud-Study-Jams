@@ -1,3 +1,19 @@
 # Google Cloud Study Jams
 
-All the resources regarding GCSJ.
+## Google Cloud Computing Foundations Pathway. 
+
+1. Google Cloud Computing Foundations: Cloud Computing Fundamentals(Course).
+
+2. Google Cloud Computing Foundations: Infrastructure in Google Cloud (Course).
+
+3. Google Cloud Computing Foundations: Networking & Security in Google Cloud(Course).
+
+4. Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud(Course).
+
+5. Create and Manage Cloud Resources(Quest).
+
+6. Perform Foundational Infrastructure Tasks in Google Cloud(Quest).
+
+7. Build and Secure Networks in Google Cloud(Quest).
+
+8. Perform Foundational Data, ML, and AI Tasks in Google Cloud(Quest).
