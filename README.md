@@ -10,8 +10,7 @@
 
 4. Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud(Course).
 
-5. [Create and Manage Cloud Resources(Quest)](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Create%20and%20Manage%20Google%20Cloud%20Resources).
-
+5. [Create and Manage Cloud Resources(Quest)](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Create%20and%20Manage%20Google%20Cloud%20Resources)
 6. [Perform Foundational Infrastructure Tasks in Google Cloud(Quest).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Perform%20Foundational%20Infrastructure%20Tasks%20in%20Google%20Cloud)
 
 7. Build and Secure Networks in Google Cloud(Quest).
