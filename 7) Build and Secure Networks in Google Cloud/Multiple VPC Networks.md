@@ -5,6 +5,10 @@
 ```cmd
 export ZONE1=
 ```
+### Get your 1st REGION from task 1, step 6.
+```cmd
+export REGION1=
+```
 ### Get your 2nd REGION from task 3
 ```cmd
 export REGION2=
