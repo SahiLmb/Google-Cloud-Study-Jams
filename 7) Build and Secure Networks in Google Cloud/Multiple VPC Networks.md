@@ -1,7 +1,7 @@
 # Multiple VPC Networks # GSP211 
 
 ## Run in cloudshell
-### Get 1st zone from task TASK 2, 3rd step
+### Get zone from Task 2, Step no 3
 ```cmd
 export ZONE1=
 ```
