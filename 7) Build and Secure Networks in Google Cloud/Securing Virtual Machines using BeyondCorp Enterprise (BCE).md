@@ -1,33 +1,51 @@
-## Quiz
+# Securing Virtual Machines using BeyondCorp Enterprise (BCE) #GSP1036
 
+## Run in cloudshell(gcloud) 
+```cmd
+gcloud services enable iap.googleapis.com
+gcloud compute instances create linux-iap \
+--machine-type e2-medium \
+--subnet=default \
+--no-address \
+--zone us-east1-c
+gcloud compute instances create windows-iap \
+--machine-type e2-medium \
+--subnet=default \
+--no-address \
+--zone us-east1-c \
+--create-disk auto-delete=yes,boot=yes,device-name=windows-iap,image=projects/windows-cloud/global/images/windows-server-2016-dc-v20230315,mode=rw,size=50,type=projects/$DEVSHELL_PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced
+gcloud compute instances create windows-connectivity \
+--machine-type e2-medium \
+--zone us-east1-c \
+--create-disk auto-delete=yes,boot=yes,device-name=windows-connectivity,image=projects/qwiklabs-resources/global/images/iap-desktop-v001,mode=rw,size=50,type=projects/$DEVSHELL_PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced \
+--scopes https://www.googleapis.com/auth/cloud-platform
+```
+### Search Firewall > Create Firewall Rule 
+> Name ```allow-ingress-from-iap```
 
-#### Q1. Which storage solution is a petabyte scale, NoSQL database?
+>Target ```All instances in the network```
 
-- [ ] Firestore
-- [x] Bigtable
-- [ ] Cloud Spanner
-- [ ] Cloud SQL
+>Source IPv4 Ranges ```35.235.240.0/20```
 
+>Select TCP and enter ```22, 3389```
 
-#### Q2. Google Cloud offers two managed relational database services. What are they?
+## Search Identity-Aware Proxy > SSH and TCP Resources
+>Check ```linux-iap```**&**```windows-iap```
 
-- [ ] Bigtable
-- [ ] Firestore
-- [x] Cloud Spanner
-- [x] Cloud SQL
+>Click ```Add principal```
 
+>Principle: Enter ```service``` and select the first one 
 
-#### Q3. Which storage service is best suited to unstructured data?
+>Role ```IAP-Secured Tunnel User```
 
-- [ ] Firestore
-- [x] Cloud Storage
-- [ ] Cloud Spanner
-- [ ] Bigtable
+>Click SAVE
 
+>Click ```Add principal```
 
-#### Q4. You are looking for an unstructured storage solution for archiving files that might never be accessed again. Which Cloud Storage class is the best option?
+>Principle:  ```Paste your Username```
 
-- [ ] Coldline storage
-- [x] Archive storage
-- [ ] Nearline storage
-- [ ] Standard storage
+>Role ```IAP-Secured Tunnel User```
+
+>Click SAVE
+
+### Scroll down and check your progress for the last task as well. (No need to perform it)
