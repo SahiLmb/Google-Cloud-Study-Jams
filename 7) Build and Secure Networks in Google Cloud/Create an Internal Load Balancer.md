@@ -1,7 +1,7 @@
 # Create an Internal Load Balancer # GSP751 
 
 ## It is recommended to do this lab in google cloud console.
-
+Or you can...
 ## Run in cloudshell 
 ### Zone from task 2 >`Create the managed instance groups`> step 3
 ```cmd
