@@ -41,4 +41,5 @@ gcloud compute instances create test-vm --machine-type=e2-micro --subnet=default
 ## Task 3. Explore the Network and Security Admin roles
 ### IAM & admin > Service Accounts > Create service account > Name= `Network-admin` > Role > Compute Engine > Compute Network Admin > Save
 <br/>
-# follow all the instructions in the lab and close the lab once the score gets 100/100 or you can continuw with the extra activities.
+
+### follow all the instructions in the lab and close the lab once the score gets 100/100 or you can continuw with the extra activities.
