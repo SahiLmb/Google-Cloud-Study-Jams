@@ -1,6 +1,6 @@
 # Securing Virtual Machines using BeyondCorp Enterprise (BCE) #GSP1036
 
-## Run in cloudshell(gcloud) 
+## Run in cloudshell (gcloud) <img src="/assests/cloud shell icon.png" width="3%" />
 ```cmd
 gcloud services enable iap.googleapis.com
 gcloud compute instances create linux-iap \
