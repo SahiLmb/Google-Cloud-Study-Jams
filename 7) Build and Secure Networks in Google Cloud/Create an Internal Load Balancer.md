@@ -27,7 +27,7 @@ gcloud compute instance-groups managed create instance-group-2 --base-instance-n
 gcloud compute instance-groups managed set-autoscaling instance-group-2 --zone=$NZONE --cool-down-period=45 --max-num-replicas=5 --min-num-replicas=1 --target-cpu-utilization=0.8
 gcloud compute instances create utility-vm --zone=$ZONE --machine-type=e2-micro --image-family=debian-10 --image-project=debian-cloud --boot-disk-size=10GB --boot-disk-type=pd-standard --network=my-internal-app --subnet=subnet-a --private-network-ip=10.10.20.50
 gcloud compute health-checks create tcp my-ilb-health-check \
---description="GDSC MGMCET" \
+--description="Subscribe To CloudHustlers" \
 --check-interval=5s \
 --timeout=5s \
 --unhealthy-threshold=2 \
@@ -70,7 +70,7 @@ cat > 2.json <<EOF
    "IPAddress": "10.10.30.5",
    "loadBalancingScheme": "INTERNAL",
    "allowGlobalAccess": false,
-   "description": "GDSC MGMCET",
+   "description": "SUBSCRIBE TO CLOUDHUSTLER",
    "ipVersion": "IPV4",
    "backendService": "projects/$DEVSHELL_PROJECT_ID/regions/$REGION/backendServices/my-ilb",
    "IPProtocol": "TCP",
@@ -93,4 +93,3 @@ curl -X POST -H "Content-Type: application/json" \
  -d @2.json \
  "https://compute.googleapis.com/compute/v1/projects/$DEVSHELL_PROJECT_ID/regions/$REGION/forwardingRules"
 ```
-
