@@ -1,40 +1,47 @@
 ## Quiz
 
-#### Q1. In the Google Cloud resource hierarchy, into which entity are resources organized?
+#### Q1. Which of these is a managed environment for deploying containerized apps?
 
-- [ ] Organization node
-- [x] Projects
-- [ ] Zones
-- [ ] Folders
-
-
-#### Q2. Which billing tool is designed to prevent the over-consumption of resources due to an error or a malicious attack?
-
-- [x] Quotas
-- [ ] Reports
-- [ ] Budgets
-- [ ] Alerts
+- [ ] Cloud Functions
+- [x] Google Kubernetes Engine
+- [ ] Cloud Run
+- [ ] App Engine
 
 
-#### Q3. Which project identifier does not need to be globally unique?
+#### Q2. Which compute service would be considered IaaS?
 
-- [ ] Project ID
-- [ ] Project number
-- [x] Project name
-
-
-#### Q4. What is the purpose of APIs offered by various Google Cloud services?
-
-- [ ] APIs allow physical access to data centers.
-- [x] APIs allow code to be written to control Google Cloud services.
-- [ ] APIs provide monthly pricing discounts.
-- [ ] APIs provide Google Cloud console access through a simple web-based graphical user interface.
-- [ ] 
+- [x] Compute Engine
+- [ ] Cloud Functions
+- [ ] Google Kubernetes Engine
+- [ ] App Engine
 
 
-#### Q5. Which command line tool is part of the Cloud SDK?
+#### Q3. What is the Compute Engine feature that allows VMs to be added to or subtracted from an application based on load metrics?
 
-- [ ] SSH
-- [ ] Bash
-- [x] gsutil
-- [ ] Git
+- [ ] Persistent disks
+- [ ] Load balancing
+- [ ] Network time protocol (NTP)
+- [x] Autoscaling
+
+
+#### Q4. Which of these is a managed compute platform that lets you run stateless containers through web requests or Pub/Sub events?
+
+- [ ] Google Kubernetes Engine
+- [x] Cloud Run
+- [ ] Cloud Functions
+- [ ] App Engine
+
+
+#### Q5. Which of these is a lightweight, fully managed serverless execution environment for building and connecting cloud services?
+
+- [ ] Google Kubernetes Engine
+- [x] Cloud Functions
+- [ ] Compute Engine
+- [ ] App Engine
+
+
+#### Q6. Which App Engine environment is based on preconfigured container instances?
+
+- [x] Standard environment
+- [ ] Flexible environment
+- [ ] Both standard and flexible environments
