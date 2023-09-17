@@ -1,6 +1,6 @@
 ## `Lab Name` - Build and Secure Networks in Google Cloud: Challenge Lab [GSP322]
 
-## `Lab Link` - [Click Here](https://www.cloudskillsboost.google/focuses/12068?parent=catalog)
+## `Lab Link` - [Click Here]([https://www.cloudskillsboost.google/focuses/12068?parent=catalog](https://www.cloudskillsboost.google/course_sessions/4874502/labs/404067))
 
 
 Run the following commands in the Cloud Shell Terminal.
