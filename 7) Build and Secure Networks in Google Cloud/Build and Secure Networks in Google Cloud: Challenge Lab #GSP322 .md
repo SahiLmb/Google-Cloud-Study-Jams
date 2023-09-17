@@ -17,7 +17,7 @@ export SSH_IAP_NETWORK_TAG=
 ```
 export SSH_INTERNAL_NETWORK_TAG=
 ```
-## The HTTP_NETWORK_TAG is in task 3 if not on google console panel
+## The HTTP_NETWORK_TAG is in task 4 if not on google console panel
 ```
 export HTTP_NETWORK_TAG=
 ```
