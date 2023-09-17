@@ -40,7 +40,7 @@ gcloud compute firewall-rules create gcsj \
     --rules=tcp:22 \
     --source-ranges=35.235.240.0/20 \
     --target-tags=$SSH_IAP_Network_tag \
-    --description="Allow SSH from IAP service" 
+    --description="Allow SSH from IAP service" \
 gcloud compute instances add-tags bastion --tags=$SSH_IAP_Network_tag --zone=$ZONE
 ```
 
@@ -52,7 +52,7 @@ gcloud compute firewall-rules create gdsc \
     --rules=tcp:80 \
     --source-ranges=0.0.0.0/0 \
     --target-tags=$HTTP_Network_Tag \
-    --description="Google Cloud Study Jams"
+    --description="Google Cloud Study Jams" \
 gcloud compute instances add-tags juice-shop --tags=$HTTP_Network_Tag --zone=$ZONE
 ```
 ## Task 5 : Create a firewall rule that allows traffic on SSH (tcp/22) from acme-mgmt-subnet network address and add network tag on juice-shop
@@ -63,8 +63,8 @@ gcloud compute firewall-rules create mgmcet \
     --rules=tcp:22 \
     --source-ranges=192.168.10.0/24 \
     --target-tags=$SSH_Internal_Network_tag \
-    --description="Google Cloud Study Jams"
-gcloud compute instances add-tags juice-shop --tags=$SSH_Internal_Network_tag --zone=$ZONE
+    --description="Google Cloud Study Jams" \
+gcloud compute instances add-tags juice-shop --tags=$SSH_Internal_Network_tag --zone=$ZONE \
 gcloud compute ssh bastion --zone=$ZONE --quiet
 ```
 ## Task 6 : SSH to bastion host via IAP and juice-shop via bastion
