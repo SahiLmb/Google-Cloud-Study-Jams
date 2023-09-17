@@ -41,7 +41,7 @@ gcloud compute firewall-rules create gcsj \
     --source-ranges=35.235.240.0/20 \
     --target-tags=$SSH_IAP_NETWORK_TAG \
     --description="Allow SSH from IAP service" \
-    --gcloud compute instances add-tags bastion --tags=$SSH_IAP_Network_tag --zone=$ZONE
+gcloud compute instances add-tags bastion --tags=$SSH_IAP_Network_tag --zone=$ZONE
 ```
 
 ## Task 4 : Create a firewall rule that allows traffic on HTTP (tcp/80) to any address and add network tag on juice-shop
