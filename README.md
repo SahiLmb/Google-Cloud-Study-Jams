@@ -2,7 +2,7 @@
 
 ## Google Cloud Computing Foundations Pathway. 
 
-1. Google Cloud Computing Foundations: Cloud Computing Fundamentals(Course).
+1. [Google Cloud Computing Foundations: Cloud Computing Fundamentals(Course).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Cloud%20Computing%20Fundamentals%20Course)
 
 2. [Google Cloud Computing Foundations: Infrastructure in Google Cloud (Course).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Infrastructure-in-Google-Cloud)
 
