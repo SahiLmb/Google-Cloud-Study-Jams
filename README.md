@@ -16,3 +16,5 @@
 7. [Build and Secure Networks in Google Cloud(Quest)](https://shorturl.at/cjtI1).
 
 8. Perform Foundational Data, ML, and AI Tasks in Google Cloud(Quest).
+
+GCCF Pathway Link: https://www.cloudskillsboost.google/journeys/36
