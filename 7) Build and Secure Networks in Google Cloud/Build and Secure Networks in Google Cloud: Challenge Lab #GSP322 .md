@@ -20,7 +20,7 @@ export SSH_IAP_NETWORK_TAG=
 ```
 export SSH_INTERNAL_NETWORK_TAG=
 ```
-## Check for http tag in task 4 if not given by Cloud Skill Boosts
+## Check for HTTP_NETWORK_TAG in task 4 if not given by Cloud Skill Boosts.
 ```
 export HTTP_NETWORK_TAG=
 ```
