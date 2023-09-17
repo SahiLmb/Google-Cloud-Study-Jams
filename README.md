@@ -6,7 +6,7 @@
 
 2. [Google Cloud Computing Foundations: Infrastructure in Google Cloud (Course).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Infrastructure-in-Google-Cloud)
 
-3. Google Cloud Computing Foundations: Networking & Security in Google Cloud(Course).
+3. [Google Cloud Computing Foundations: Networking & Security in Google Cloud(Course).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Networking%20%26%20Security%20in%20Google%20Cloud%20Course).
 
 4. Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud(Course).
 
