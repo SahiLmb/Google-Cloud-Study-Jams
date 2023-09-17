@@ -5,7 +5,7 @@
 
 Run the following commands in the Cloud Shell Terminal.
 
-### Let's start with defining some variables given by Cloud Skill Boosts
+### Define the variables given by Cloud Skill Boosts in your lab.
 
 * For exporting the zone, first go to *Compute Engine* > *VM Instances* > Copy `Any Instance Zone`(both instances zone should be in the same.)
 
