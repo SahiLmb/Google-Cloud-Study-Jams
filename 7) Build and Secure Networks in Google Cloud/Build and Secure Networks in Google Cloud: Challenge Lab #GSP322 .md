@@ -65,9 +65,25 @@ gcloud compute firewall-rules create mgmcet \
     --target-tags=$SSH_INTERNAL_NETWORK_TAG \
     --description="Google Cloud Study Jams" 
 gcloud compute instances add-tags juice-shop --tags=$SSH_Internal_Network_tag --zone=$ZONE 
-gcloud compute ssh bastion --zone=$ZONE --quiet
 ```
 ## Task 6 : SSH to bastion host via IAP and juice-shop via bastion
+
 ```
+gcloud compute ssh --zone "$ZONE" "bastion"  --tunnel-through-iap --project $DEVSHELL_PROJECT_ID
+```
+
+* If prompted, type `y` & then hit `Enter Two Times`. You'll see you're successfully login to the bastion VM
+
+```
+export JUICE_SHOP_VM_INTERNAL_IP=$(gcloud compute instances describe juice-shop --format='get(networkInterfaces[0].networkIP)')
+
 gcloud compute ssh juice-shop --internal-ip
 ```
+
+* If prompted, type `y` & then hit `Enter Two Times`. You'll see you're successfully login to the juice-shop VM from bastion VM.
+
+```
+ssh $JUICE_SHOP_VM_INTERNAL_IP
+```
+
+# Congratulations🎉! You're all done with this Challenge Lab.
