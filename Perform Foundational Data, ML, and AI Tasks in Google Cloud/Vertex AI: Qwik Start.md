@@ -29,4 +29,4 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 --member=serviceAccount:$SERVICE_ACCOUNT_ID@$PROJECT_ID.iam.gserviceaccount.com \
 --role="roles/aiplatform.user"
 ```
-## Now do task 3 and 4 manually
+## do task 3 and 4 manually(task 5 is extra task).
