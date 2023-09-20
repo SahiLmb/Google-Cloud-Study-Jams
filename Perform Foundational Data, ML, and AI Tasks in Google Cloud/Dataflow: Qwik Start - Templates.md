@@ -1,6 +1,8 @@
 # Dataflow: Qwik Start - Templates # GSP192 
 
 ## Run in cloudshell
+
+### Check for region in task 3
 ```cmd
 export REGION=
 ```
