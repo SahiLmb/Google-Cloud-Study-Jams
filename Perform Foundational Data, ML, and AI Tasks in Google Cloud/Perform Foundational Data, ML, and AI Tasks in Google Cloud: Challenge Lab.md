@@ -29,7 +29,7 @@ gcloud dataflow jobs run Cloudhustler --gcs-location gs://dataflow-templates-$RE
 gcloud dataproc clusters create cluster-b53a --region $REGION --master-machine-type e2-standard-2 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type e2-standard-2 --worker-boot-disk-size 500 --image-version 2.1-debian11 --project $DEVSHELL_PROJECT_ID
 ```
 ### API & Credintials > Create Credintials > API KEY > Copy it
-## RUN IN ANOTHER SHELL 
+## RUN IN ANOTHER CLOUD SHELL (Tap on the + icon)
 ```cmd
 API_KEY=
 ```
