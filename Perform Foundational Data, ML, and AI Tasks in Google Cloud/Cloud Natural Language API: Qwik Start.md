@@ -15,3 +15,7 @@ gcloud compute ssh linux-instance
 gcloud ml language analyze-entities \
 --content="Michelangelo Caravaggio, Italian painter, is known for 'The Calling of Saint Matthew'." > result.json
 ```
+### Run the below command to preview the output of result.json file
+```
+cat result.json
+```
