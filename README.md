@@ -15,6 +15,6 @@
 
 7. [Build and Secure Networks in Google Cloud(Quest)](https://shorturl.at/cjtI1).
 
-8. Perform Foundational Data, ML, and AI Tasks in Google Cloud(Quest).
+8. [Perform Foundational Data, ML, and AI Tasks in Google Cloud(Quest).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Perform%20Foundational%20Data%2C%20ML%2C%20and%20AI%20Tasks%20in%20Google%20Cloud)
 
 GCCF Pathway Link: https://www.cloudskillsboost.google/journeys/36
