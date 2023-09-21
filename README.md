@@ -17,7 +17,8 @@
 
 8. [Perform Foundational Data, ML, and AI Tasks in Google Cloud(Quest).](https://github.com/SahiLmb/Google-Cloud-Study-Jams/tree/main/Perform%20Foundational%20Data%2C%20ML%2C%20and%20AI%20Tasks%20in%20Google%20Cloud)
 
-## GenAI Pathway Playlist link: https://youtube.com/playlist?list=PL35e76LqN_bjczZdiRniCVxI1J9oZI9Et&si=qvNw8ZPq03yIyPEU
+## GenAI Pathway YouTube Playlist link
+https://youtube.com/playlist?list=PL35e76LqN_bjczZdiRniCVxI1J9oZI9Et&si=qvNw8ZPq03yIyPEU
 
 GCCF Pathway Link: https://www.cloudskillsboost.google/journeys/36
-
+GenAI pathway Link: https://www.cloudskillsboost.google/games/4422
