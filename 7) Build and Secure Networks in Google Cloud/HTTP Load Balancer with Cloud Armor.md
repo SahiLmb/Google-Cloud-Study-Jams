@@ -1,5 +1,6 @@
 # HTTP Load Balancer with Cloud Armor # GSP215 
-## You can do this lab in Google Cloud Console but if you want to speedrun the lab copy the code given below.(there is a chance that you might get an error in the below code so do it thorough console as per lab instructions.)
+## You can do this lab in Google Cloud Console but if you want to speedrun the lab copy the code given below.
+(there is a chance that you might get an error in the below code so do it thorough console as per lab instructions.)
 
 ## Run in cloudshell
 ### Get REGION 1 AND REGION 2 from Task 2
