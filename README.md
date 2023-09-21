@@ -21,4 +21,5 @@
 https://youtube.com/playlist?list=PL35e76LqN_bjczZdiRniCVxI1J9oZI9Et&si=qvNw8ZPq03yIyPEU
 
 GCCF Pathway Link: https://www.cloudskillsboost.google/journeys/36
+
 GenAI pathway Link: https://www.cloudskillsboost.google/games/4422
