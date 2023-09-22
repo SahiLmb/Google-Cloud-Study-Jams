@@ -96,4 +96,4 @@ curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TO
 
 >Max restarts per hour ```1```
 
-> SUBMIT
+> Click on SUBMIT
